@@ -1,0 +1,88 @@
+section.specifications {
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  position: relative;
+}
+section.specifications .tableContainer {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+section.specifications .tableContainer .video {
+  position: sticky;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+section.specifications div h2 {
+  width: 100%;
+  font-size: clamp(3rem, 8vw, 10vw);
+  text-align: center;
+  margin-bottom: 20px;
+}
+section.specifications .flare {
+  top: 0;
+}
+section.specifications .flare.left {
+  left: 0;
+  right: 0;
+  rotate: 30deg;
+  top: unset;
+  bottom: 0;
+  margin-bottom: 100px;
+}
+section.specifications .flare.right {
+  left: 0;
+  margin-top: 470px;
+  margin-left: -50px;
+  rotate: -30deg;
+  transform: translateY(120%);
+  bottom: 0;
+  margin-left: 50vw;
+}
+section.specifications .flare.bottom {
+  transform: translateY(400%);
+  rotate: -60deg;
+  top: unset;
+  left: 0;
+}
+
+@media (max-width: 670px) {
+  section.specifications {
+    padding: 25px 0px;
+    margin-top: 20px;
+  }
+  section.specifications .tableContainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    display: block;
+  }
+  section.specifications .tableContainer .video {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  section.specifications .flare.left {
+    left: -20px;
+    rotate: 30deg;
+    transform: translateY(50%);
+  }
+  section.specifications .flare.right {
+    right: -20px;
+    rotate: -30deg;
+    transform: translateY(50%);
+  }
+  section.specifications .flare.bottom {
+    rotate: -60deg;
+    top: unset;
+    bottom: 0;
+    right: 0;
+    margin-right: 100px;
+    margin-bottom: -70px;
+  }
+}/*# sourceMappingURL=specifications.css.map */

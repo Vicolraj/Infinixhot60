@@ -1,0 +1,29 @@
+.product {
+  background-color: var(--secondary);
+  padding-top: 20px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.product h2 {
+  text-align: center;
+  font-family: "infinix";
+  padding-bottom: 10px;
+}
+.product [data-type=productsContainer] {
+  display: grid;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0.2fr));
+  text-align: center;
+}
+.product [data-type=productsContainer] img {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.product [data-type=productsContainer] h4 {
+  width: 100%;
+  font-weight: bolder;
+}/*# sourceMappingURL=product.css.map */

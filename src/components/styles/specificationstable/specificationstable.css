@@ -1,0 +1,28 @@
+.specifications-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  max-width: 450px;
+}
+.specifications-container th, .specifications-container td {
+  border: 1px solid rgba(36, 34, 34, 0.2980392157);
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+  background-color: whitesmoke;
+}
+.specifications-container th {
+  background-color: var(--cardBg);
+  font-weight: bold;
+}
+.specifications-container tr:nth-child(even) {
+  background-color: var(--cardBg);
+}
+.specifications-container .main-category {
+  background-color: var(--opBg);
+  font-size: 1.2em;
+  text-align: center;
+}
+.specifications-container > * {
+  font-size: small;
+}/*# sourceMappingURL=specificationstable.css.map */

@@ -1,0 +1,30 @@
+.product{
+    background-color: var(--secondary);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+      h2{
+        text-align: center;
+        font-family: "infinix";
+        padding-bottom: 10px;
+      }
+
+      [data-type="productsContainer"]{
+        display: grid;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(200px,.2fr));
+        text-align: center;
+        img{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+        h4{
+            width: 100%;
+            font-weight: bolder;
+        }
+      }
+}
